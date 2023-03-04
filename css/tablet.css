@@ -172,4 +172,22 @@
   .customers-items {
     column-gap: 24px;
   }
+
+  /*FOOTER*/
+
+  .footer-blocks {
+    display: flex;
+  }
+
+  .sub-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .social-footer {
+    margin-right: 80px;
+    margin-left: 120px;
+  }
 }

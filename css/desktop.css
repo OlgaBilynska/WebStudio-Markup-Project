@@ -133,4 +133,16 @@
   .customer-block {
     width: calc((100% - 120px) / 6);
   }
+
+  /*FOOTER*/
+
+  .footer-sub {
+    margin-left: auto;
+  }
+
+  .footer-content {
+    justify-content: left;
+    max-width: 264px;
+    width: 25%;
+  }
 }

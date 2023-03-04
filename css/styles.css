@@ -600,8 +600,14 @@ header {
 
 /*FOOTER*/
 
+.footer-blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer {
-  padding: 100px 0px;
   background-color: var(--main-color);
 }
 
@@ -617,14 +623,11 @@ header {
 
 .footer-text {
   margin-top: 16px;
+  margin-bottom: 72px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-color);
-}
-
-.footer-sub {
-  margin-left: auto;
 }
 
 .footer-title {
@@ -636,16 +639,20 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-}
-
-.footer-blocks {
-  display: flex;
+  text-align: center;
 }
 
 .footer-content {
-  justify-content: left;
-  max-width: 264px;
-  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 268px;
+}
+
+.social-footer {
+  margin-bottom: 72px;
 }
 
 .social-list-footer {
@@ -666,7 +673,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+
   transition: background-color 250ms var(--transition);
 }
 
@@ -705,13 +712,8 @@ header {
   transform: translateY(-50%);
 }
 
-.sub-form {
-  display: flex;
-  gap: 24px;
-}
-
 .email {
-  width: 264px;
+  width: 398px;
   padding: 8px 16px;
   background-color: transparent;
   height: 40px;
@@ -743,9 +745,14 @@ header {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.email:focus {
-  /* border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
+.sub-btn {
+  margin-top: 16px;
+}
+
+.sub-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sub-btn-text {
@@ -760,11 +767,6 @@ header {
 
 .sub-btn:is(:hover, :focus) {
   background-color: var(--hover-button);
-}
-
-.social-footer {
-  margin-right: 80px;
-  margin-left: 120px;
 }
 
 /*PORTFOLIO*/
