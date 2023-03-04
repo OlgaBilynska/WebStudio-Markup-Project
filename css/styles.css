@@ -218,23 +218,22 @@ header {
 
 /*TEAM*/
 
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+  padding-left: 82px;
+  padding-right: 82px;
+}
+
 .team {
   background-color: var(--background-color);
 }
 
-.team-container {
-  display: flex;
-  /* outline: 1px solid (--checking-borders); */
-}
-
 .team-title {
   text-align: center;
-  /* padding-top: 120px; */
   margin-bottom: 72px;
-}
-
-.team-item:not(:first-child) {
-  margin-left: 24px;
 }
 
 .team-subtitle,
@@ -242,19 +241,32 @@ header {
   text-align: center;
 }
 
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
 .team-text {
   margin: 8px 0px;
 }
 
 .team-content {
-  padding: 32px 16px;
+  padding: 32px 14px;
   background-color: var(--white-color);
 }
 
 .team-item {
+  width: 264px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-picture {
+  width: 100%;
 }
 
 .team-social-icons {
@@ -268,10 +280,6 @@ header {
 .team-social-icon {
   width: 40px;
   height: 40px;
-}
-
-.mob-menu-social {
-  display: flex;
 }
 
 .team-social-link,
@@ -293,10 +301,6 @@ header {
 
 .team-soc-media {
   fill: var(--background-color);
-}
-
-.social-icons {
-  display: flex;
 }
 
 /*CUSTOMERS*/

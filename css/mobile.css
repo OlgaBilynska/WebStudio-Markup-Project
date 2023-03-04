@@ -54,6 +54,10 @@
     transition: opacity 500ms linear, visibility 500ms linear;
   }
 
+  .mob-menu-social {
+    display: flex;
+  }
+
   .mob-menu.is-open {
     opacity: 1;
     visibility: visible;
