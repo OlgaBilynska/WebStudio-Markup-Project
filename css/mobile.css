@@ -6,6 +6,12 @@
   }
 }
 
+@media screen and (max-width: 1439px) {
+  .doing.section {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .nav-items {
     display: none;
