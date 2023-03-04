@@ -11,6 +11,10 @@
     display: none;
   }
 
+  .address {
+    display: none;
+  }
+
   .address-list {
     display: none;
   }
