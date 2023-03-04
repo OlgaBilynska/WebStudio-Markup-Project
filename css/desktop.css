@@ -1,0 +1,40 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1128px;
+  }
+
+  .section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+
+  .address-list {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    transition: color 250ms var(--transition);
+  }
+
+  .address-item {
+    transition: color 250ms var(--transition);
+  }
+
+  .phone-item {
+    margin-left: 40px;
+  }
+
+  .nav-item:not(:first-child) {
+    margin-left: 40px;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--hover-button);
+  }
+
+  .address-item:hover,
+  .address-item:focus {
+    color: var(--hover-button);
+  }
+}

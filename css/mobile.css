@@ -1,0 +1,27 @@
+@media screen and (min-width: 428px) {
+  .container {
+    width: 396px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-items {
+    display: none;
+  }
+
+  .address-list {
+    display: none;
+  }
+
+  .mobile-menu-open-icon {
+    display: block;
+  }
+}
+
+.container-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

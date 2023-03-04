@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 736px;
+  }
+
+  .mob-menu-open {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+  }
+
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-and-nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+
+  .nav-item:not(:first-child) {
+    margin-left: 40px;
+  }
+}
