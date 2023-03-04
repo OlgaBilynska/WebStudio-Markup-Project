@@ -162,4 +162,14 @@
   .team-content {
     padding: 32px 16px;
   }
+
+  /*CUSTOMERS*/
+
+  .customer-block {
+    width: 168px;
+  }
+
+  .customers-items {
+    column-gap: 24px;
+  }
 }

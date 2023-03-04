@@ -129,9 +129,8 @@
     max-width: 360px;
   }
 
-  /*TEAM*/
-
-  .team-item:not(:first-child) {
-    margin-left: 24px;
+  /*CUSTOMERS*/
+  .customer-block {
+    width: calc((100% - 120px) / 6);
   }
 }

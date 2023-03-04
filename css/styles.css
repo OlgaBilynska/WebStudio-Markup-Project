@@ -303,11 +303,6 @@ header {
 
 /*CUSTOMERS*/
 
-.customers-list {
-  padding-top: 130px;
-  padding-bottom: 120px;
-}
-
 .customers-title {
   margin-right: auto;
   margin-left: auto;
@@ -317,8 +312,11 @@ header {
 
 .customers-items {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  gap: 24px;
+  column-gap: 16px;
+  row-gap: 72px;
 }
 
 .customer-link {
@@ -334,7 +332,7 @@ header {
 }
 
 .customer-block {
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 16 * 3) / 2);
   height: 88px;
 }
 
