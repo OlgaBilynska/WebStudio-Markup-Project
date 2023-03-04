@@ -52,17 +52,16 @@
     }
   }
 
-  .section {
-    padding-bottom: 120px;
-    padding-top: 120px;
-  }
-
   /*FEATURES*/
 
   .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+  }
+
+  .features-container {
+    flex-wrap: nowrap;
   }
 
   .features-item {
@@ -92,3 +91,8 @@
     text-transform: capitalize;
   }
 }
+
+/* .section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+} */
