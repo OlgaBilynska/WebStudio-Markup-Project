@@ -22,6 +22,56 @@
   .mob-menu-open-icon {
     display: block;
   }
+
+  .mob-menu-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
+
+  .mob-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 796px;
+    z-index: 999;
+    background-color: orange;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.3);
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: opacity 500ms linear, visibility 500ms linear;
+  }
+
+  .mob-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .mob-menu-container {
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-right: 35px;
+  }
+
+  .mob-menu-close-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: var(--current-color);
+    padding: 8px;
+    line-height: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
 }
 
 .container-menu {
@@ -31,11 +81,4 @@
 
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.mob-menu-open {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  line-height: 0;
 }
