@@ -1,6 +1,6 @@
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1128px;
+    width: 1440px;
   }
 
   .address-list {
@@ -54,6 +54,11 @@
 
   /*FEATURES*/
 
+  .section {
+    padding: 120px;
+    padding-top: 120px;
+  }
+
   .subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -61,7 +66,12 @@
   }
 
   .features-container {
+    padding-left: 140px;
+    padding-right: 140px;
     flex-wrap: nowrap;
+    row-gap: 0px;
+    column-gap: 0px;
+    justify-content: center;
   }
 
   .features-item {
@@ -91,8 +101,3 @@
     text-transform: capitalize;
   }
 }
-
-/* .section {
-  padding-bottom: 120px;
-  padding-top: 120px;
-} */

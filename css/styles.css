@@ -32,6 +32,7 @@ p {
 ul {
   margin: 0;
   padding-left: 0;
+  padding-inline-start: 0;
 }
 
 address {
@@ -84,7 +85,6 @@ header {
 .container {
   padding-left: 16px;
   padding-right: 16px;
-  outline: 1px solid orangered;
 }
 
 .nav-logo {
@@ -182,8 +182,9 @@ header {
 
 /*FEATURES*/
 
-.features > .container {
-  padding: 96px 16px;
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .subtitle {
