@@ -107,6 +107,10 @@
   .features-item {
     width: 100%;
   }
+
+  .features-image {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
