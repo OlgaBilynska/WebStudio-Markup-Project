@@ -3,11 +3,6 @@
     width: 1128px;
   }
 
-  .section {
-    padding-bottom: 120px;
-    padding-top: 120px;
-  }
-
   .address-list {
     flex-direction: row;
   }
@@ -17,68 +12,83 @@
   }
 
   .address-item {
-    transition: color 250ms var(--transition);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .address-item:not(:last-child) {
+    margin-bottom: 0px;
   }
 
   .phone-item {
     margin-left: 40px;
   }
 
-  .nav-item:not(:first-child) {
-    margin-left: 40px;
+  .current::after {
+    bottom: -2px;
   }
 
-  .nav-link:hover,
-  .nav-link:focus {
-    color: var(--hover-button);
+  .hero .container {
+    padding: 188px;
+    background-image: var(--l-gra), url('../images/bg-desktop.jpg');
+    max-width: 1440px;
   }
 
-  .address-item:hover,
-  .address-item:focus {
-    color: var(--hover-button);
+  @media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero .container {
+      background-image: var(--l-gra), url('../images/bg-desktop@2x.jpg');
+    }
+  }
+
+  @media screen and (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 228dpi),
+    (min-resolution: 3dppx) {
+    .hero .container {
+      background-image: var(--l-gra), url('../images/bg-desktop@3x.jpg');
+    }
+  }
+
+  .section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+
+  /*FEATURES*/
+
+  .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .features-item {
+    max-width: 264px;
+  }
+
+  .features-image {
+    width: 264px;
+    height: 112px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .features-item:not(:first-child) {
+    margin-left: 24px;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
   }
 }
-
-/* .hero .container {
-  padding: 188px;
-  text-align: center;
-  background: var(--main-color);
-  background-image: var(--l-gra), url('../images/people-office.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  max-width: 1440px;
-} */
-
-/* .hero-title {
-  margin: auto;
-  font-weight: 700;
-  text-align: center;
-  width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--white-color);
-} */
-
-/* .hero-btn {
-  padding: 16px 32px;
-  border-radius: 4px;
-  margin-top: 48px;
-
-  font-family: inherit;
-  background-color: var(--primary-brand);
-  color: var(--white-color);
-  border: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-
-  transition: background-color 250ms var(--transition);
-} */
-
-/* .hero-btn:hover,
-.hero-btn:focus {
-  background-color: var(--hover-button);
-} */

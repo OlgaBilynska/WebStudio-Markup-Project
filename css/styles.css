@@ -106,55 +106,6 @@ header {
 
 /*FEATURES*/
 
-.subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
-.title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.features-text {
-  margin-top: 8px;
-}
-
-.features-item {
-  max-width: 264px;
-}
-
-.features-image {
-  width: 264px;
-  height: 112px;
-  background-color: var(--background-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
-
-.features-item:not(:first-child) {
-  margin-left: 24px;
-}
-
-.features-container {
-  display: flex;
-}
-
 /*DOING*/
 
 .doing-container {
