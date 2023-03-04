@@ -147,6 +147,45 @@ a.nav-logo {
   padding-bottom: 28px;
 }
 
+.mob-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: var(--white-color);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mob-menu-container {
+  position: relative;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-right: 35px;
+}
+
+.mob-menu-close-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-color: var(--current-color);
+  padding: 8px;
+  line-height: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
 /*HERO*/
 
 .hero .container {
@@ -323,7 +362,12 @@ a.nav-logo {
   height: 40px;
 }
 
-.team-social-link {
+.mob-menu-social {
+  display: flex;
+}
+
+.team-social-link,
+.mob-menu-link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
