@@ -216,31 +216,6 @@ header {
   display: none;
 }
 
-/*DOING*/
-
-.doing-container {
-  display: flex;
-  justify-content: space-between;
-  /* outline: 1px solid (--checking-borders); */
-}
-
-.doing.section {
-  padding-top: 0;
-}
-
-.doing-title {
-  text-align: center;
-  margin-bottom: 72px;
-}
-
-.doing-item:not(:first-child) {
-  margin-left: 24px;
-}
-
-.doing-item > img {
-  max-width: 360px;
-}
-
 /*TEAM*/
 
 .team {
