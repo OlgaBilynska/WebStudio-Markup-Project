@@ -35,7 +35,7 @@
 
 .address-item {
   color: var(--text-color);
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.02em;
 }
@@ -59,7 +59,7 @@
   content: '';
   display: block;
   position: absolute;
-  bottom: -1px;
+  bottom: -5px;
   left: 0px;
   width: 100%;
   height: 4px;
@@ -88,5 +88,5 @@ a.nav-logo {
 }
 
 .address-block {
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }

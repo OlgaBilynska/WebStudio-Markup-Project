@@ -82,3 +82,15 @@
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
+/*HERO*/
+
+.hero .container {
+  padding: 112px 54px;
+  text-align: center;
+  background: var(--main-color);
+  background-image: var(--l-gra), url('../images/hero-bg-mob.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
