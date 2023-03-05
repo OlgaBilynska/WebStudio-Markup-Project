@@ -19,6 +19,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css"/>
+     <link rel="stylesheet" href="./css/tablet.css"/>
+      <link rel="stylesheet" href="./css/desktop.css"/>
   </head>
 
   <body>
@@ -45,6 +48,11 @@
               </ul>
             </div>
           </nav>
+          <button type="button" class="mob-menu-open js-open-menu">
+            <svg class="mobile-menu-open-icon" width="32" height="22">
+              <use href="./images/icons.svg#icon-mob-menu"></use>
+            </svg>
+          </button>
           <address>
             <ul class="list address-list">
               <li class="address-item">
@@ -61,6 +69,63 @@
           </address>
         </div>
       </div>
+
+        <div class="mob-menu js-menu-container">
+        <div class="container mob-menu-container">
+          <button class="mob-menu-close-button js-close-menu">
+            <svg class="mob-menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-cross"></use>
+            </svg>
+          </button>
+
+          <div class="mob-menu-sections">
+          <ul class="mob-menu-list list">
+            <li ><a class="mob-menu-item link" href="./index.html">Studio</a></li>
+            <li><a class="mob-menu-item link" href="./portfolio.html">Portfolio</a></li>
+            <li ><a class="mob-menu-item link" href="#">Contacts</a></li>
+          </ul>
+
+          <div class="mob-menu-contact">          <ul class="mob-menu-address list">
+            <li><a class="mob-phone link" href="tel:"+11 (000) 111-11-11"> +11 (000) 111-11-11</a></li>
+            <li><a class="mob-email link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a></li>
+          </ul>
+          <ul class="mob-menu-social list">
+            <li class="mob-menu-social-item">
+              <a href="" class="mob-menu-link link">
+                <svg class="team-soc-media" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-social-item">
+              <a href="" class="mob-menu-link link">
+                <svg class="team-soc-media" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-social-item">
+              <a href="" class="mob-menu-link link">
+                <svg class="team-soc-media" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-social-item">
+              <a href="" class="mob-menu-link link">
+                <svg class="team-soc-media" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+</div>
+</div>
+        </div>
+      </div>
+
+
     </header>
 
     <main>
@@ -245,8 +310,9 @@
       </section>
     </main>
 
-    <footer class="footer">
+     <footer class="footer section">
       <div class="container footer-blocks">
+        <div class="footer-content-and-soc">
         <div class="footer-content">
           <a class="footer-logo link" href="./index.html"
             ><span class="nav-logo-color">Web</span>Studio</a
@@ -291,13 +357,19 @@
             </ul>
           </h3>
         </div>
+</div>
 
         <div class="footer-sub">
+          
           <p class="footer-title">Subscribe</p>
+          
+          <div class="sub-block">
+            <div class="sub-form">
           <form  class="sub-form">
 <label id="email-footer">
             <input class="email" type="email" name="sub-button" id="email-footer" placeholder="E-mail">
       </label>
+      </div>
 
             <button class="sub-btn" type="submit">
               <p class="sub-btn-text">Subscribe</p>
@@ -305,9 +377,13 @@
   <use href="./images/icons.svg#icon-subscribe"></use>
 </svg>
             </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
+    
+    <script src="./js/mobile-menu.js"></script>
+
   </body>
 </html>
