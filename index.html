@@ -68,21 +68,20 @@
         </div>
       </div>
       <div class="mob-menu js-menu-container">
-        <div class="container mob-menu-container">
-          <button class="mob-menu-close-button js-close-menu">
+        <button class="mob-menu-close-button js-close-menu">
             <svg class="mob-menu-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close-cross"></use>
             </svg>
           </button>
-
-          <div class="mob-menu-sections">
+        <div class="container mob-menu-container">
           <ul class="mob-menu-list list">
             <li ><a class="mob-menu-item link" href="./index.html">Studio</a></li>
             <li><a class="mob-menu-item link" href="./portfolio.html">Portfolio</a></li>
             <li ><a class="mob-menu-item link" href="#">Contacts</a></li>
           </ul>
 
-          <div class="mob-menu-contact">          <ul class="mob-menu-address list">
+          <div class="mob-menu-contact">          
+            <ul class="mob-menu-address list">
             <li><a class="mob-phone link" href="tel:"+11 (000) 111-11-11"> +11 (000) 111-11-11</a></li>
             <li><a class="mob-email link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a></li>
@@ -117,7 +116,6 @@
               </a>
             </li>
           </ul>
-</div>
 </div>
         </div>
       </div>
@@ -195,31 +193,45 @@
           <h2 class="doing-title title">What are we doing</h2>
           <ul class="doing-container">
             <li class="doing-item list">
-              <img
+<picture>
+  <source srcset="./images/doing-desktop.webp 1x, ./images/doing-desktop@2x.webp 2x, ./images/doing-desktop@3x.webp 3x" type="image/webp" />
+  <source srcset="./images/doing-desktop.jpg 1x, ./images/doing-desktop@2x.jpg 2x, ./images/doing-desktop@3x.jpg 3x" type="image/jpeg" />
+               <img
                 class="doing-image"
-                src="./images/computer.jpg"
+                src="./images/doing-desktop.jpg"
                 alt="statistics on computer"
                 width="360"
                 height="300"
               />
+              </picture>
             </li>
             <li class="doing-item list">
+
+              <picture>
+  <source srcset="./images/doing-mobile.webp 1x, ./images/doing-mobile@2x.webp 2x, ./images/doing-mobile@3x.webp 3x" type="image/webp" />
+  <source srcset="./images/doing-mobile.jpg 1x, ./images/doing-mobile@2x.jpg 2x, ./images/doing-mobile@3x.jpg 3x" type="image/jpeg" />
               <img
                 class="doing-image"
-                src="./images/smartphone.jpg"
+                src="./images/doing-mobile.jpg"
                 alt="messages on smartphone"
                 width="360"
                 height="300"
               />
+              </picture>
+            
             </li>
             <li class="doing-item list">
-              <img
+              <picture>
+  <source srcset="./images/doing-laptop.webp 1x, ./images/doing-laptop@2x.webp 2x, ./images/doing-laptop@3x.webp 3x" type="image/webp" />
+  <source srcset="./images/doing-laptop.jpg 1x, ./images/doing-laptop@2x.jpg 2x, ./images/doing-laptop@3x.jpg 3x" type="image/jpeg" />
+                         <img
                 class="doing-image"
-                src="./images/synchronization.jpg"
+                src="./images/doing-laptop.jpg"
                 alt="synchronizing content on devices"
                 width="360"
                 height="300"
               />
+              </picture>
             </li>
           </ul>
         </div>
@@ -231,13 +243,14 @@
 
           <ul class="team-container list">
             <li class="team-item">
-              <img
-                class="team-picture"
-                src="./images/marc.jpg"
-                alt="Mark Guerrero - Product Designer"
-                width="264"
-                height="260"
-              />
+<picture>
+  
+  <source srcset="./images/mark.webp 1x, ./images/mark@2x.webp 2x, ./images/mark@3x.webp 3x" type="image/webp" />
+  <source srcset="./images/marc.jpg 1x, ./images/marc@2x.jpg 2x, ./images/marc@3x.jpg 3x" type="image/jpeg" />
+  <img class="team-picture" src="./images/marc.jpg" alt="Mark Guerrero - Product Designer"width="264"
+                height="260" />
+</picture>
+
               <div class="team-content">
                 <h3 class="team-subtitle subtitle">Mark Guerrero</h3>
                 <p class="team-text text">Product Designer</p>
@@ -274,13 +287,19 @@
               </div>
             </li>
             <li class="team-item">
-              <img
+
+              <picture>
+    <source srcset="./images/tom.webp 1x, ./images/tom@2x.webp 2x, ./images/tom@3x.webp 3x" type="image/webp" />
+  <source srcset="./images/tom.jpg 1x, ./images/tom@2x.jpg 2x, ./images/tom@3x.jpg 3x" type="image/jpeg" />
+  <img
                 class="team-picture"
                 src="./images/tom.jpg"
                 alt="Tom Ford - Frontend Developer"
                 width="264"
                 height="260"
               />
+</picture>
+              
               <div class="team-content">
                 <h3 class="team-subtitle subtitle">Tom Ford</h3>
                 <p class="team-text text">Frontend Developer</p>
@@ -317,13 +336,17 @@
               </div>
             </li>
             <li class="team-item">
-              <img
+              <picture>
+    <source srcset="./images/camila.webp 1x, ./images/camila@2x.webp 2x, ./images/camila@3x.webp 3x" type="image/webp" />
+  <source srcset="./images/camila.jpg 1x, ./images/camila@2x.jpg 2x, ./images/camila@3x.jpg 3x" type="image/jpeg" />
+               <img
                 class="team-picture"
                 src="./images/camila.jpg"
                 alt="Camila Garcia - Marketing"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="team-content">
                 <h3 class="team-subtitle subtitle">Camila Garcia</h3>
                 <p class="team-text text">Marketing</p>
@@ -360,13 +383,17 @@
               </div>
             </li>
             <li class="team-item">
-              <img
+               <picture>
+    <source srcset="./images/daniel.webp 1x, ./images/daniel@2x.webp 2x, ./images/daniel@3x.webp 3x" type="image/webp" />
+  <source srcset="./images/daniel.jpg 1x, ./images/daniel@2x.jpg 2x, ./images/daniel@3x.jpg 3x" type="image/jpeg" />
+                         <img
                 class="team-picture"
                 src="./images/daniel.jpg"
                 alt="Daniel Wilson - UI Designer"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="team-content">
                 <h3 class="team-subtitle subtitle">Daniel Wilson</h3>
                 <p class="team-text text">UI Designer</p>

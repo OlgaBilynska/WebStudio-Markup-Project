@@ -91,10 +91,12 @@
     color: #404bbf;
   }
 
-  .mob-menu-contact {
+  .mob-menu-address {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 40px;
+
+    margin-bottom: 48px;
   }
 
   .mob-menu.is-open {
@@ -109,6 +111,10 @@
     padding-bottom: 40px;
     padding-top: 80px;
     padding-right: 35px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .mob-menu-close-button {
@@ -129,7 +135,7 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
 
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px;
   }
 
   .mob-email {
@@ -143,5 +149,11 @@
 
   .mob-email:is(:hover :focus) {
     color: #4d5ae5;
+  }
+}
+
+@media screen and (max-width: 427) {
+  .mob-phone {
+    font-size: 24px;
   }
 }
