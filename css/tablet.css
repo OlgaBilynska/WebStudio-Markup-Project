@@ -176,7 +176,18 @@
   /*FOOTER*/
 
   .footer-blocks {
+    align-items: start;
+    padding-left: 108px;
+  }
+
+  .footer-content-and-soc {
     display: flex;
+    align-items: baseline;
+    gap: 24px;
+  }
+
+  .social-footer {
+    align-items: start;
   }
 
   .sub-form {
@@ -186,8 +197,26 @@
     gap: 24px;
   }
 
-  .social-footer {
-    margin-right: 80px;
-    margin-left: 120px;
+  .sub-block {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 24px;
+  }
+
+  .sub-btn {
+    margin-top: 0px;
+  }
+
+  .footer-title {
+    text-align: start;
+  }
+
+  .footer-content {
+    align-items: start;
+  }
+
+  .email {
+    width: 264px;
   }
 }

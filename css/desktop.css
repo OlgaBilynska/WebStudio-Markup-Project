@@ -136,13 +136,26 @@
 
   /*FOOTER*/
 
+  .footer.section {
+    padding: 100px 159px 100px 156px;
+  }
+
+  .footer-blocks {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 80px;
+  }
+
   .footer-sub {
     margin-left: auto;
   }
 
   .footer-content {
     justify-content: left;
-    max-width: 264px;
-    width: 25%;
+    width: 264px;
+  }
+
+  .footer-content-and-soc {
+    gap: 120px;
   }
 }
