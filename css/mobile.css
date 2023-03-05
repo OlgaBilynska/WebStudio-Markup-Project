@@ -45,7 +45,7 @@
     max-height: 796px;
     z-index: 999;
     background-color: var(--white-color);
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
 
     opacity: 0;
     visibility: hidden;
@@ -56,6 +56,45 @@
 
   .mob-menu-social {
     display: flex;
+    justify-content: space-between;
+  }
+
+  .mob-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 40px;
+  }
+
+  .mob-menu-social-item {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+
+  .mob-menu-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .mob-menu-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+
+  .mob-menu-item:is(:hover :focus) {
+    color: #404bbf;
+  }
+
+  .mob-menu-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
   }
 
   .mob-menu.is-open {
@@ -81,5 +120,28 @@
     line-height: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+  }
+
+  .mob-phone {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* margin-bottom: 40px; */
+  }
+
+  .mob-email {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+  }
+
+  .mob-email:is(:hover :focus) {
+    color: #4d5ae5;
   }
 }

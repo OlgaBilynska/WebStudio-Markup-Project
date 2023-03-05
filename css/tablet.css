@@ -219,4 +219,10 @@
   .email {
     width: 264px;
   }
+
+  /*MODAL*/
+
+  .modal {
+    min-width: 408px;
+  }
 }
