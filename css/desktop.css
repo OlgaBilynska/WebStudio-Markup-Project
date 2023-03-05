@@ -143,7 +143,6 @@
   .footer-blocks {
     flex-direction: row;
     align-items: baseline;
-    gap: 80px;
   }
 
   .footer-sub {
