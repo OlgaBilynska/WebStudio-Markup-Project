@@ -129,9 +129,15 @@
 
   /*FOOTER*/
 
+.footer .container {
+    width: 1157px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
   .footer-blocks {
     flex-direction: row;
-
+width: 
     padding: 100px 0px;
   }
 

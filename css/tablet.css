@@ -180,9 +180,12 @@
 
   /*FOOTER*/
 
+  .footer .container {
+    width: 552px;
+  }
+
   .footer-blocks {
     align-items: start;
-    padding-left: 108px;
   }
 
   .footer-content-and-soc {
@@ -198,6 +201,7 @@
 
   .social-footer {
     align-items: start;
+    margin-bottom: 0px;
   }
 
   .sub-form {
