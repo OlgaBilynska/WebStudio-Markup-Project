@@ -33,7 +33,8 @@
   }
 
   .hero .container {
-    padding: 188px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: var(--l-gra), url('../images/bg-desktop.jpg');
     max-width: 1440px;
   }
@@ -97,14 +98,6 @@
     margin-left: 24px;
   }
 
-  .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-  }
-
   /*DOING*/
 
   .doing-container {
@@ -136,13 +129,10 @@
 
   /*FOOTER*/
 
-  .footer.section {
-    padding: 100px 159px 100px 156px;
-  }
-
   .footer-blocks {
     flex-direction: row;
-    align-items: baseline;
+
+    padding: 100px 0px;
   }
 
   .footer-sub {
@@ -152,6 +142,8 @@
   .footer-content {
     justify-content: left;
     width: 264px;
+
+    margin-bottom: 0px;
   }
 
   .footer-content-and-soc {

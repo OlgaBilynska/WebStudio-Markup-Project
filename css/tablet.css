@@ -100,7 +100,8 @@
   /*HERO*/
 
   .hero .container {
-    padding: 112px 136px 108px;
+    padding-top: 112px;
+    padding-bottom: 108px;
     background-image: var(--l-gra), url('../images/bg-tablet.jpg');
   }
 
@@ -149,6 +150,10 @@
     max-width: 356px;
   }
 
+  .features-container > .features-item {
+    margin-bottom: 0px;
+  }
+
   /*TEAM*/
 
   .team-container {
@@ -182,8 +187,13 @@
 
   .footer-content-and-soc {
     display: flex;
-    align-items: baseline;
+    align-items: start;
+    height: 100%;
     gap: 24px;
+  }
+
+  .footer-content {
+    align-items: start;
   }
 
   .social-footer {
@@ -210,10 +220,6 @@
 
   .footer-title {
     text-align: start;
-  }
-
-  .footer-content {
-    align-items: start;
   }
 
   .email {
