@@ -26,21 +26,19 @@
 
   <body>
     <header>
-      <div class="container">
+     <div class="container">
         <div class="container-menu">
-          <nav class="navigation">
+          <nav>
             <div class="logo-and-nav">
               <a class="nav-logo link" href="./index.html"
                 ><span class="nav-logo-color">Web</span>Studio</a
               >
               <ul class="list nav-items">
                 <li class="nav-item">
-                  <a class="nav-link link" href="./index.html">Studio</a>
+                  <a class="nav-link link current" href="">Studio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link current" href="./portfolio.html"
-                    >Portfolio</a
-                  >
+                  <a class="nav-link link" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link link" href="">Contacts</a>
@@ -53,7 +51,7 @@
               <use href="./images/icons.svg#icon-mob-menu"></use>
             </svg>
           </button>
-          <address>
+          <address class="address-block">
             <ul class="list address-list">
               <li class="address-item">
                 <a class="address-item link" href="mailto:info@devstudio.com"
@@ -125,7 +123,6 @@
         </div>
       </div>
 
-
     </header>
 
     <main>
@@ -155,12 +152,20 @@
               <div class="portfolio-item-list">
               
                 <div class="portfolio-thumb">
-                <img class="portfolio-image"
+
+                    <picture>
+    <source srcset="./images/port-lap-banking.webp 1x, ./images/port-lap-banking@2x.webp 2x, ./images/port-lap-banking@3x.webp 3x" type="image/webp" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-lap-banking.jpg 1x, ./images/port-lap-banking@2x.jpg 2x, ./images/port-lap-banking@3x.jpg 3x" type="image/jpeg" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-tab-banking.webp 1x, ./images/port-tab-banking@2x.webp 2x, ./images/port-tab-banking@3x.webp 3x" type="image/webp" media="(min-width: 768px)"/>
+  <source srcset="./images/port-tab-banking.jpg 1x, ./images/port-tab-banking@2x.jpg 2x, ./images/port-tab-banking@3x.jpg 3x" type="image/jpeg" media="(min-width: 768px)"/>
+   <source srcset="./images/port-mob-banking.webp 1x, ./images/port-mob-banking@2x.webp 2x, ./images/port-mob-banking@3x.webp 3x" type="image/webp" media="(max-width: 767px)"/>
+  <source srcset="./images/port-mob-banking.jpg 1x, ./images/port-mob-banking@2x.jpg 2x, ./images/port-mob-banking@3x.jpg 3x" type="image/jpeg" media="(max-width: 767px)"/>
+                         <img class="portfolio-image"
                   src="./images/portfolio-bank.jpg"
                   alt="Banking App Interface"
-                />
+              />
+              </picture>
                 
-
                 <div class="portfolio-overlay">
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -174,13 +179,23 @@
                 </div>
               </div>
             </li>
+
             <li class="list portfolio-item">
               <div class="portfolio-item-list">
                 <div class="portfolio-thumb">
-                <img class="portfolio-image"
+                  <picture>
+    <source srcset="./images/port-lap-cashless.webp 1x, ./images/port-lap-cashless@2x.webp 2x, ./images/port-lap-cashless@3x.webp 3x" type="image/webp" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-lap-cashless.jpg 1x, ./images/port-lap-cashless@2x.jpg 2x, ./images/port-lap-cashless@3x.jpg 3x" type="image/jpeg" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-tab-cashless.webp 1x, ./images/port-tab-cashless@2x.webp 2x, ./images/port-tab-cashless@3x.webp 3x" type="image/webp" media="(min-width: 768px)"/>
+  <source srcset="./images/port-tab-cashless.jpg 1x, ./images/port-tab-cashless@2x.jpg 2x, ./images/port-tab-cashless@3x.jpg 3x" type="image/jpeg" media="(min-width: 768px)"/>
+   <source srcset="./images/port-mob-cashless.webp 1x, ./images/port-mob-cashless@2x.webp 2x, ./images/port-mob-cashless@3x.webp 3x" type="image/webp" media="(max-width: 767px)"/>
+  <source srcset="./images/port-mob-cashless.jpg 1x, ./images/port-mob-cashless@2x.jpg 2x, ./images/port-mob-cashless@3x.jpg 3x" type="image/jpeg" media="(max-width: 767px)"/>
+                          <img class="portfolio-image"
                   src="./images/portfolio-cashless.jpg"
                   alt="Cashless Payments"
                 />
+              </picture>
+               
                 <div class="portfolio-overlay">
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -191,13 +206,24 @@
                 </div>
               </div>
             </li>
+
             <li class="list portfolio-item">
               <div class="portfolio-item-list">
                 <div class="portfolio-thumb">
-                <img class="portfolio-image"
+
+                  <picture>
+    <source srcset="./images/port-lap-meditation.webp 1x, ./images/port-lap-meditation@2x.webp 2x, ./images/port-lap-meditation@3x.webp 3x" type="image/webp" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-lap-meditation.jpg 1x, ./images/port-lap-meditation@2x.jpg 2x, ./images/port-lap-meditation@3x.jpg 3x" type="image/jpeg" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-tab-meditation.webp 1x, ./images/port-tab-meditation@2x.webp 2x, ./images/port-tab-meditation@3x.webp 3x" type="image/webp" media="(min-width: 768px)"/>
+  <source srcset="./images/port-tab-meditation.jpg 1x, ./images/port-tab-meditation@2x.jpg 2x, ./images/port-tab-meditation@3x.jpg 3x" type="image/jpeg" media="(min-width: 768px)"/>
+   <source srcset="./images/port-mob-meditation.webp 1x, ./images/port-mob-meditation@2x.webp 2x, ./images/port-mob-meditation@3x.webp 3x" type="image/webp" media="(max-width: 767px)"/>
+  <source srcset="./images/port-mob-meditation.jpg 1x, ./images/port-mob-meditation@2x.jpg 2x, ./images/port-mob-meditation@3x.jpg 3x" type="image/jpeg" media="(max-width: 767px)"/>
+                        <img class="portfolio-image"
                   src="./images/portfolio-meditation.jpg"
                   alt="Meditation App"
                 />
+              </picture>
+                
                 <div class="portfolio-overlay">
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -208,10 +234,21 @@
                 </div>
               </div>
             </li>
+
             <li class="list portfolio-item">
               <div class="portfolio-item-list">
                 <div class="portfolio-thumb">
-                <img class="portfolio-image" src="./images/portfolio-taxi.jpg" alt="Taxi service" />
+
+                    <picture>
+   <source srcset="./images/port-lap-taxi.webp 1x, ./images/port-lap-taxi@2x.webp 2x, ./images/port-lap-taxi@3x.webp 3x" type="image/webp" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-lap-taxi.jpg 1x, ./images/port-lap-taxi@2x.jpg 2x, ./images/port-lap-taxi@3x.jpg 3x" type="image/jpeg" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-tab-taxi.webp 1x, ./images/port-tab-taxi@2x.webp 2x, ./images/port-tab-taxi@3x.webp 3x" type="image/webp" media="(min-width: 768px)"/>
+  <source srcset="./images/port-tab-taxi.jpg 1x, ./images/port-tab-taxi@2x.jpg 2x, ./images/port-tab-taxi@3x.jpg 3x" type="image/jpeg" media="(min-width: 768px)"/>
+   <source srcset="./images/port-mob-taxi.webp 1x, ./images/port-mob-taxi@2x.webp 2x, ./images/port-mob-taxi@3x.webp 3x" type="image/webp" media="(max-width: 767px)"/>
+  <source srcset="./images/port-mob-taxi.jpg 1x, ./images/port-mob-taxi@2x.jpg 2x, ./images/port-mob-taxi@3x.jpg 3x" type="image/jpeg" media="(max-width: 767px)"/>
+                  <img class="portfolio-image" src="./images/portfolio-taxi.jpg" alt="Taxi service" />
+              </picture>
+                
                 <div class="portfolio-overlay">
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -222,13 +259,25 @@
                 </div>
               </div>
             </li>
+
             <li class="list portfolio-item">
               <div class="portfolio-item-list">
                 <div class="portfolio-thumb">
-                <img class="portfolio-image"
+                  
+ <picture>
+   <source srcset="./images/port-lap-screen.webp 1x, ./images/port-lap-screen@2x.webp 2x, ./images/port-lap-screen@3x.webp 3x" type="image/webp" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-lap-screen.jpg 1x, ./images/port-lap-screen@2x.jpg 2x, ./images/port-lap-screen@3x.jpg 3x" type="image/jpeg" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-tab-screen.webp 1x, ./images/port-tab-screen@2x.webp 2x, ./images/port-tab-screen@3x.webp 3x" type="image/webp" media="(min-width: 768px)"/>
+  <source srcset="./images/port-tab-screen.jpg 1x, ./images/port-tab-screen@2x.jpg 2x, ./images/port-tab-screen@3x.jpg 3x" type="image/jpeg" media="(min-width: 768px)"/>
+   <source srcset="./images/port-mob-screen.webp 1x, ./images/port-mob-screen@2x.webp 2x, ./images/port-mob-screen@3x.webp 3x" type="image/webp" media="(max-width: 767px)"/>
+  <source srcset="./images/port-mob-screen.jpg 1x, ./images/port-mob-screen@2x.jpg 2x, ./images/port-mob-screen@3x.jpg 3x" type="image/jpeg" media="(max-width: 767px)"/>
+                  <img class="portfolio-image"
                   src="./images/portfolio-screen.jpg"
                   alt="Screen Illustrations"
                 />
+              </picture>
+
+                
                 <div class="portfolio-overlay">
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -241,13 +290,23 @@
                 </div>
               </div>
             </li>
+
             <li class="list portfolio-item">
               <div class="portfolio-item-list">
                 <div class="portfolio-thumb">
-                <img class="portfolio-image"
+                   <picture>
+   <source srcset="./images/port-lap-courses.webp 1x, ./images/port-lap-courses@2x.webp 2x, ./images/port-lap-courses@3x.webp 3x" type="image/webp" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-lap-courses.jpg 1x, ./images/port-lap-courses@2x.jpg 2x, ./images/port-lap-courses@3x.jpg 3x" type="image/jpeg" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-tab-course.webp 1x, ./images/port-tab-course@2x.webp 2x, ./images/port-tab-course@3x.webp 3x" type="image/webp" media="(min-width: 768px)"/>
+  <source srcset="./images/port-tab-course.jpg 1x, ./images/port-tab-course@2x.jpg 2x, ./images/port-tab-course@3x.jpg 3x" type="image/jpeg" media="(min-width: 768px)"/>
+   <source srcset="./images/port-mob-courses.webp 1x, ./images/port-mob-courses@2x.webp 2x, ./images/port-mob-courses@3x.webp 3x" type="image/webp" media="(max-width: 767px)"/>
+  <source srcset="./images/port-mob-courses.jpg 1x, ./images/port-mob-courses@2x.jpg 2x, ./images/port-mob-courses@3x.jpg 3x" type="image/jpeg" media="(max-width: 767px)"/>
+                    <img class="portfolio-image"
                   src="./images/portfolio-courses.jpg"
                   alt="Online Courses"
                 />
+              </picture>
+              
                 <div class="portfolio-overlay">
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -258,13 +317,24 @@
                 </div>
               </div>
             </li>
+
             <li class="list portfolio-item">
               <div class="portfolio-item-list">
                 <div class="portfolio-thumb">
-                <img class="portfolio-image"
+
+                                     <picture>
+   <source srcset="./images/port-lap-instagram.webp 1x, ./images/port-lap-instagram@2x.webp 2x, ./images/port-lap-instagram@3x.webp 3x" type="image/webp" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-lap-instagram.jpg 1x, ./images/port-lap-instagram@2x.jpg 2x, ./images/port-lap-instagram@3x.jpg 3x" type="image/jpeg" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-tab-instagram.webp 1x, ./images/port-tab-instagram@2x.webp 2x, ./images/port-tab-instagram@3x.webp 3x" type="image/webp" media="(min-width: 768px)"/>
+  <source srcset="./images/port-tab-instagram.jpg 1x, ./images/port-tab-instagram@2x.jpg 2x, ./images/port-tab-instagram@3x.jpg 3x" type="image/jpeg" media="(min-width: 768px)"/>
+   <source srcset="./images/port-mob-instagram.webp 1x, ./images/port-mob-instagram@2x.webp 2x, ./images/port-mob-instagram@3x.webp 3x" type="image/webp" media="(max-width: 767px)"/>
+  <source srcset="./images/port-mob-instagram.jpg 1x, ./images/port-mob-instagram@2x.jpg 2x, ./images/port-mob-instagram@3x.jpg 3x" type="image/jpeg" media="(max-width: 767px)"/>
+                    <img class="portfolio-image"
                   src="./images/portfolio-instagram.jpg"
                   alt="Instagram Stories"
                 />
+              </picture>
+               
                 <div class="portfolio-overlay">
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -277,10 +347,20 @@
                 </div>
               </div>
             </li>
+
             <li class="list portfolio-item">
               <div class="portfolio-item-list">
                 <div class="portfolio-thumb">
+                        <picture>
+  <source srcset="./images/port-lap-organic.webp 1x, ./images/port-lap-organic@2x.webp 2x, ./images/port-lap-organic@3x.webp 3x" type="image/webp" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-lap-organic.jpg 1x, ./images/port-lap-organic@2x.jpg 2x, ./images/port-lap-organic@3x.jpg 3x" type="image/jpeg" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-tab-organic.webp 1x, ./images/port-tab-organic@2x.webp 2x, ./images/port-tab-organic@3x.webp 3x" type="image/webp" media="(min-width: 768px)"/>
+  <source srcset="./images/port-tab-organic.jpg 1x, ./images/port-tab-organic@2x.jpg 2x, ./images/port-tab-organic@3x.jpg 3x" type="image/jpeg" media="(min-width: 768px)"/>
+   <source srcset="./images/port-mob-organic.webp 1x, ./images/port-mob-organic@2x.webp 2x, ./images/port-mob-organic@3x.webp 3x" type="image/webp" media="(max-width: 767px)"/>
+  <source srcset="./images/port-mob-organic.jpg 1x, ./images/port-mob-organic@2x.jpg 2x, ./images/port-mob-organic@3x.jpg 3x" type="image/jpeg" media="(max-width: 767px)"/>
                 <img class="portfolio-image" src="./images/portfolio-organic.jpg" alt="Organic Food" />
+              </picture>
+                
                 <div class="portfolio-overlay">
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -291,10 +371,21 @@
                 </div>
               </div>
             </li>
+
             <li class="list portfolio-item">
               <div class="portfolio-item-list">
                 <div class="portfolio-thumb">
-                <img class="portfolio-image" src="./images/portfolio-coffee.jpg" alt="Cup of coffee" />
+      <picture>
+        
+  <source srcset="./images/port-lap-coffee.webp 1x, ./images/port-lap-coffee@2x.webp 2x, ./images/port-lap-coffee@3x.webp 3x" type="image/webp" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-lap-coffee.jpg 1x, ./images/port-lap-coffee@2x.jpg 2x, ./images/port-lap-coffee@3x.jpg 3x" type="image/jpeg" media="(min-width: 1200px)"/>
+  <source srcset="./images/port-tab-coffee.webp 1x, ./images/port-tab-coffee@2x.webp 2x, ./images/port-tab-coffee@3x.webp 3x" type="image/webp" media="(min-width: 768px)"/>
+  <source srcset="./images/port-tab-coffee.jpg 1x, ./images/port-tab-coffee@2x.jpg 2x, ./images/port-tab-coffee@3x.jpg 3x" type="image/jpeg" media="(min-width: 768px)"/>
+   <source srcset="./images/port-mob-coffee.webp 1x, ./images/port-mob-coffee@2x.webp 2x, ./images/port-mob-coffee@3x.webp 3x" type="image/webp" media="(max-width: 767px)"/>
+  <source srcset="./images/port-mob-coffee.jpg 1x, ./images/port-mob-coffee@2x.jpg 2x, ./images/port-mob-coffee@3x.jpg 3x" type="image/jpeg" media="(max-width: 767px)"/> 
+  <img class="portfolio-image" src="./images/portfolio-coffee.jpg" alt="Cup of coffee" />
+              </picture>
+
                 <div class="portfolio-overlay">
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                 </div>
@@ -310,7 +401,7 @@
       </section>
     </main>
 
-     <footer class="footer section">
+    <footer class="footer">
       <div class="container footer-blocks">
         <div class="footer-content-and-soc">
         <div class="footer-content">
@@ -355,7 +446,6 @@
                 </a>
               </li>
             </ul>
-          </h3>
         </div>
 </div>
 
@@ -366,11 +456,10 @@
           <div class="sub-block">
             <div class="sub-form">
           <form  class="sub-form">
-<label id="email-footer">
+<label id="sub-button">
             <input class="email" type="email" name="sub-button" id="email-footer" placeholder="E-mail">
       </label>
       </div>
-
             <button class="sub-btn" type="submit">
               <p class="sub-btn-text">Subscribe</p>
 <svg class="btn-image" width="24" height="24">
